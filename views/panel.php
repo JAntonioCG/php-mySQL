@@ -83,6 +83,40 @@
             <h5 class="modal-title" id="insertarModalLabel">Agregar Alumnos</h5>
             <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="nombre" class="from-label">Nombre</label>
+              <input type="text" name="nombre" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="apaterno" class="from-label">Apaterno</label>
+              <input type="text" name="apaterno" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="amaterno" class="from-label">Amaterno</label>
+              <input type="text" name="amaterno" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="fecha_nacimiento" class="from-label">Fecha de nacimiento</label>
+              <input type="date" name="fecha_nacimiento" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="estatura" class="from-label">Estatura</label>
+              <input type="text" name="estatura" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="usuario" class="from-label">Usuario</label>
+              <input type="text" name="usuario" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="from-label">Password</label>
+              <input type="password" name="password" class="form-control" required>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">CANCELAR</button>
+            <button class="btn btn-primary" type="button" data-bs-dismiss="modal">AGREGAR</button>
+          </div>
         </form>
       </div>
     </div>
