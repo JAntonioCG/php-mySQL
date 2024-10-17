@@ -164,14 +164,10 @@
               <label for="usuario" class="from-label">Usuario</label>
               <input type="text" name="usuario" class="form-control" required id="actualizar-usuario">
             </div>
-            <div class="mb-3">
-              <label for="password" class="from-label">Password</label>
-              <input type="password" name="password" class="form-control" required id="actualizar-password">
-            </div>
           </div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">CANCELAR</button>
-            <button class="btn btn-primary" type="button" data-bs-dismiss="modal">AGREGAR</button>
+            <button class="btn btn-primary" type="submit">ACTUALIZAR</button>
           </div>
         </form>
       </div>
@@ -233,5 +229,6 @@ actualizarModal.addEventListener('show.bs.modal', (e) => {
 });
 
 </script>
+<script src="../js/app.js"></script>
 </body>
 </html>
