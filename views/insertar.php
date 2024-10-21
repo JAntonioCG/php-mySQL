@@ -41,6 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = $insertar->error;
         header("Location: panel.php?error=nosepudoagregar&details=$error");
     }
+    header('Location: panel.php?success=Alumno agregado exitosamente');
 
     // Cerrar conexión
     $conexion->close();

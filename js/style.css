@@ -1,0 +1,26 @@
+.notificacion {
+  display: none;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #fff;
+  animation: fadeIn 0.5s, fadeOut 0.5s 4s;
+}
+
+.notificacion.success {
+  background-color: #28a745;
+}
+
+.notificacion.error {
+  background-color: #dc3545;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

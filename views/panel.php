@@ -14,6 +14,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <title>PANEL - PHP + MySQL</title>
 </head>
+<div id="notificaciones" class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
+</div><!-- -->
 <body>
   <div class="container mt-5">
     <h2>Bienvenido, <?php echo $_SESSION['usuario']; ?></h2>
@@ -230,5 +232,6 @@ actualizarModal.addEventListener('show.bs.modal', (e) => {
 
 </script>
 <script src="../js/app.js"></script>
-</body>
-</html>
+<link rel="stylesheet" href="../js/style.css">
+<script>
+</script>
